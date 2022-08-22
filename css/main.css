@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/playfair-display-v30-latin-regular.woff2') format('woff2'),
+        url('../fonts/playfair-display-v30-latin-regular.woff') format('woff');
+}
+
+body {
+    font-family: "Playfair Display", "New Times Roman", serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4{
+    font-family: "Playfair Display", "New Times Roman", serif;
+    font-weight: bold;
+font-size: 3rem;
+}
+
+.ita{
+    font-style: italic;
+}
+
+.zz{
+    padding-top: 120px;
+    text-align: center;
+}
+.red{
+color: #d63384;
+}
+
+.about{
+top: 2rem;
+}
+
+footer{
+padding: 40px 0;
+}
